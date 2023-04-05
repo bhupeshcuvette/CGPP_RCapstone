@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.superapp{
+    position: absolute;
+    width: 239px;
+    height: 94px;
+    left: 938px;
+    top: 15px;
+    font-family: 'Single Day';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 139.69%;
+    color: #72DB73;
+}
+
+.newaccount{
+    position: absolute;
+    width: 292px;
+    height: 27px;
+    left: 888px;
+    top: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 139.69%;
+    color: #FFFFFF;
+
+}
+
+.em-gm{
+    position: absolute;
+    width: 292px;
+    height: 27px;
+    left: 958px;
+    top: 155px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 139.69%;
+    color: #FFFFFF;
+
+}
+
+.em-gm span{
+    color: #72DB73;
+}
+
+.Name{
+    position: absolute;
+    width: 298px;
+    height: 25.87px;
+    left: 857px;
+    top: 239px;
+    background: #292929;
+    border-radius: 3.81584px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.0331px;
+    line-height: 139.69%;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+}
+
+.UserName{
+    position: absolute;
+    width: 298px;
+    height: 25.87px;
+    left: 857px;
+    top: 299px;
+    background: #292929;
+    border-radius: 3.81584px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.0331px;
+    line-height: 139.69%;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+
+}
+
+.Email{
+    position: absolute;
+    width: 298px;
+    height: 25.87px;
+    left: 857px;
+    top: 359px;
+    background: #292929;
+    border-radius: 3.81584px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.0331px;
+    line-height: 139.69%;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+}
+
+.Mobile{
+    position: absolute;
+    width: 298px;
+    height: 25.87px;
+    left: 857px;
+    top: 419px;
+    background: #292929;
+    border-radius: 3.81584px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.0331px;
+    line-height: 139.69%;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+
+}
+
+.Checkbox{
+    position: absolute;
+    width: 433px;
+    height: 19px;
+    left: 658px;
+    top: 469px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.0331px;
+    line-height: 139.69%;
+    letter-spacing: 0.02em;
+    color:white;
+
+}
+
+.CheckboxTest{
+    position: absolute;
+    width: 433px;
+    height: 19px;
+    left: 892px;
+    top: 459px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.0331px;
+    line-height: 139.69%;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+}
+
+.signUp{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 872px;
+    top: 518px;
+    background: #72DB73;
+    border-radius: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 108.69%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.tnc{
+    position: absolute;
+    width: 458px;
+    height: 53px;
+    left: 857px;
+    top: 558px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 141.7%;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+}
+
+.tnc span{
+    color:#72DB73;
+}
+
+.privacy{
+    position: absolute;
+    width: 458px;
+    height: 53px;
+    left: 857px;
+    top: 590px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 141.7%;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+}
+
+.privacy span{
+    color:#72DB73;
+}
+
+.name-error{
+    position: absolute;
+    left: 857px;
+    top: 265px;
+    color:red;
+    font-size: 10px;
+}
+
+.username-error{
+    position: absolute;
+    left: 857px;
+    top: 325px;
+    color:red;
+    font-size: 10px;
+}
+
+.email-error{
+    position: absolute;
+    left: 857px;
+    top: 385px;
+    color:red;
+    font-size: 10px;
+}
+
+.mobile-error{
+    position: absolute;
+    left: 857px;
+    top: 445px;
+    color:red;
+    font-size: 10px;
+
+}
+
+.check-error{
+    position: absolute;
+    left: 857px;
+    top: 485px;
+    color:red;
+    font-size: 10px;
+}
+
