@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Form.css";
 
 const Form =()=>{
     const [formValues,setFormValues]=useState({"name":'',"username":'',"email":'',"mobile":'',check:false});
     const [displayErrors,setDisplayErrors]=useState({"name":'',"username":"","email":'',"mobile":'',"check":''});
+    const donavigate=useNavigate();
 
     const handleFormInput =(e)=>{
         setFormValues({...formValues,[e.target.name]:e.target.value});
@@ -37,6 +39,11 @@ const Form =()=>{
         }
         if(!formValues.check){
             displayErrors.check="Checkbox required";
+        }
+        if(formValues.name!=="" && formValues.username!=="" && emailRegex.test(formValues.email) && formValues.email!=="" && !mobileRegex.test(formValues.mobile) && formValues.mobile!=="" && formValues.check ){
+            window.localStorage.setItem("formData",JSON.stringify(formValues));
+            donavigate('/entertainment');
+    
         }
         return displayErrors;
     }
