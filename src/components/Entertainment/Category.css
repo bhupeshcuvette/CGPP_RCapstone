@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.body{
+    height:100vh;
+    width:100vh;
+    display:flex;
+    box-sizing:border-box;
+}
+
+
+
+.left{
+    height:90vh;
+    width:50vw;
+}
+
+.left-up{
+    font-family: 'Single Day';
+    font-style: normal;
+    font-size: 3rem;
+    margin-left:12vw;
+    margin-top:10vh;
+    color: #72DB73;
+}
+
+.left-cat-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 3rem;
+    margin-top: 15vh;
+    margin-left:12vw;
+    color: #FFFFFF;
+}
+
+.selCatagory{
+    display:flex;
+    flex-wrap:wrap;
+    margin:1vw;
+}
+
+.displayselCatagory{
+    display:flex;
+    color:white;
+    background-color: #148A08;
+    font-size:0.5rem;
+    border-radius: 50px;
+    margin:1vw;
+    width:5vw;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.displayselCatagory span{
+    font-size:1rem;
+}
+
+.delBtn{
+    margin-left:10px;
+    color: #085C00;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left:300px;
+
+}
+
+.allCategories{
+    display: flex;
+    font-family: 'DM Sans';
+    font-style: normal;
+    flex-wrap: wrap;
+    font-size:1rem;
+}
+
+.indCategory{
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    width:25vw;
+    height:30vh;
+    justify-content: center;
+}
+
+.catGrid{
+    display: flex;
+    width: 5vw;
+    height: 20vh;
+    flex-wrap: wrap;
+    border-radius: 3vh;
+    margin: 15px;
+}
+
+.selCatagories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.type-text-cat span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    text-align: start;
+    font-size:3vh;
+    color:white;
+
+}
+
+.Test{
+    width:100%;
+    height:auto;
+} 
+
+.next-button{
+    position: absolute;
+    width: 150px;
+    height: 56px;
+    left: 904px;
+    top: 580px;
+    font-size:20px;
+    background: #148A08;
+    border-radius: 38.8571px;
+    color:white;
+}
+
