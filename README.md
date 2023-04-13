@@ -1,6 +1,11 @@
 # Getting Started with Create React App
--
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Check List 1 -> Completed(05.04.2023) [ added registration page]
+
+Check List 2 -> Completed(13.04.2023) [ added category page]
+
 
 ## Available Scripts
 
