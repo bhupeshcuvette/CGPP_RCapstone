@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.profile-info{
+    width:35vw;
+    min-height:30vh;
+    background: #5746EA;
+    border-radius: 19px;
+    padding:5px;
+    display:flex;
+    gap:10px;
+}
+
+.display-pic{
+    width: 10vw;
+    height:35vh;
+    left:2vw;
+    top:2vh;
+}
+
+.user-info-col{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.user-name{
+    font-size: 2rem;
+    color:white;
+}
+
+.user-mail{
+    font-size:2rem;
+    color:white;
+}
+
+.user-username{
+    font-size: 3rem;
+    color:white;
+}
+
+.display-all-categories{
+    width:25vw;
+}
+
+.display-sel-catagory{
+    display:flex;
+    flex-wrap:wrap;
+    color:white;
+    background-color:#9F94FF;
+    font-size:1rem;
+    border-radius: 10px;
+    margin:10px;
+    width:10vw;
+    height:3vh;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.del-btn{
+    margin-left:45px;
+    margin-top:0px;
+    color:rgba(0, 0, 0, 0.42);
+}
+
