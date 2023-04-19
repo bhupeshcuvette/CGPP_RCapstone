@@ -1,5 +1,5 @@
 import Profile from "../components/Homepage/ProfileInfo";
-
+import Weather from "../components/Homepage/Weather";
 
 const Homepage =()=>{
     return(
@@ -7,6 +7,7 @@ const Homepage =()=>{
         <div style={{display:"flex",gap:"15px"}}>
         <div>
             <Profile/>
+            <Weather/>
         </div>
         </div>
         </div>

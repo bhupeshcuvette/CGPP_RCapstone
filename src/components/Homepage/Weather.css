@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.weatherInfo{
+    width:35vw;
+    min-height: 25vh;
+    background: #101744;
+    border-radius: 19px;
+    margin-top: 10px;
+}
+
+.topInfo{
+    height:8vh;
+    background: #FF4ADE;
+    border-radius: 19px;
+    color:white;
+    display:flex;
+    font-size:2rem;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.bottomInfo{
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weather-icon{
+    width:4vw;
+    height:3vh;
+
+}
+
+.temp-above{
+    font-size:2rem;
+    margin-top:12px;
+}
+
+.pressure-icon{
+    width:2vw;
+    height:2vh;
+}
+
+.wind-icon{
+    width:2vw;
+    height:2vh;
+    margin-top:12px;
+}
+
+.wind-style{
+    font-size:1rem;
+    margin-top:12px;
+}
+
+.humid-icon{
+    width:2vw;
+    height:2vh;
+    margin-top:12px;
+}
+.humid-style{
+    font-size:1rem;
+    margin-top: 20px;
+}
+
+
