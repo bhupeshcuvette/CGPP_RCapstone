@@ -1,5 +1,6 @@
 import Profile from "../components/Homepage/ProfileInfo";
 import Weather from "../components/Homepage/Weather";
+import News from "../components/Homepage/News";
 
 const Homepage =()=>{
     return(
@@ -9,10 +10,15 @@ const Homepage =()=>{
             <Profile/>
             <Weather/>
         </div>
+        <div>
+        </div>
+        <div>
+            <News/>
+        </div>
         </div>
         </div>
         
     )
 }
 
-export default Homepage
+export default Homepage;

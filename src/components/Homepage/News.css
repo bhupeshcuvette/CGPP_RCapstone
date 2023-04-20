@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.news-info{
+    position:relative;
+    margin-left:400px;
+    height:60vh;
+    width:30vw;
+    padding:5px;
+    border-radius:19px;
+
+}
+
+.news-image{
+    height:20vh;
+    width:30vw;
+    border-radius:19px;
+}
+
+.news-info-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    color:white;
+    height:30vh;
+    width:30vw;
+    border-radius:19px;
+    padding:20px;
+    box-sizing: border-box;
+    background:rgba(0, 0, 0, 0.74);
+
+}
+
+.news-description{
+
+    height:40vh;
+    width:30vw;
+    background: #FFFFFF;
+    font-size:1rem;
+    padding:5px;
+}
+
+.news-description span{
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 20vh;
+}
