@@ -1,6 +1,7 @@
 import Profile from "../components/Homepage/ProfileInfo";
 import Weather from "../components/Homepage/Weather";
 import News from "../components/Homepage/News";
+import Notes from "../components/Homepage/Notes";
 
 const Homepage =()=>{
     return(
@@ -11,6 +12,7 @@ const Homepage =()=>{
             <Weather/>
         </div>
         <div>
+            <Notes/>
         </div>
         <div>
             <News/>

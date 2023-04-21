@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.all-notes{
+    width:25vw;
+    height:55vh;
+    border-radius:19px;
+    padding:5px;
+    background: #F1C75B;
+    margin-left:10px;
+
+}
+
+.top-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    color:black;
+    font-size:2rem;
+
+}
+
+.text-area-prop{
+    font-family: 'Roboto';
+    font-style: normal;
+    color:black;
+    font-size:1rem;
+    width:24vw;
+    height:35vh;
+    background:transparent;
+    border:none;
+}
+
+.circle{
+    position: absolute;
+    width:10vh;
+    height:10vh;
+    margin-left:238px;
+}
+
+.edit-pen{
+    margin-left:248px;
+    position:absolute;
+
+}
