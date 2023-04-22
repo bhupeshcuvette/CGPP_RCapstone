@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+.sup-app{
+    font-family: 'Single Day';
+    font-style: normal;
+    top:10px;
+    font-size:2rem;
+    left:30px;
+    width: 239px;
+    height: 94px;
+    color: #72DB73;
+
+}
+
+.choice-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    position:absolute;
+    font-size:2rem;
+    color:white;
+    top:58px;
+    left:30px;
+}
+
+.display-all-movies{
+    margin-top:50px;
+}

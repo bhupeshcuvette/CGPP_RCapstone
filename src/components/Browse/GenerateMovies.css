@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.genre-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #878787;
+    font-size:1rem;
+
+
+}
+
+.display-movies{
+    display:flex;
+    margin-left:2vw;
+
+}
+
+.fin-movie{
+    width:25vw;
+    margin:1vw;
+}
+
+.disp-fin-movie{
+    width:15vw;
+    height:20vh;
+    border-radius:19px;
+}
