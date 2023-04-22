@@ -19,8 +19,15 @@
     position:absolute;
     font-size:2rem;
     color:white;
-    top:58px;
+    top:150px;
     left:30px;
+}
+
+.t-button{
+    margin-left:1200px;
+    margin-top:20px;
+    width:40px;
+    height:40px;
 }
 
 .display-all-movies{
